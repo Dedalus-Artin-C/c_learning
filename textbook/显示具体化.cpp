@@ -71,3 +71,14 @@ void Show(job &j)
 {
     cout  << j.name << ": " << j.salary << " on floor " << j.floor << endl;
 }
+
+
+// template <class T>
+// void Swap(T &a, T &b);
+
+// template <> void Swap<job>(job &a, job &b); // 特化job类型的Swap()函数
+// int main(void)
+// {
+//     template void Swap<char>(char &, char &); // 非特化int类型的Swap()函数
+//     short a, b;
+// }

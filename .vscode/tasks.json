@@ -19,7 +19,8 @@
 				"${fileDirname}\\release\\${fileBasenameNoExtension}.exe"
 			],
 			"options": {
-				"cwd": "${fileDirname}"
+				"cwd": "${fileDirname}",
+				"env": {"CPLUS_INCLUDE_PATH": "${workspaceFolder}/include"},
 			},
 			"problemMatcher": [
 				"$gcc"
