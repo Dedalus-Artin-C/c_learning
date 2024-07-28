@@ -12,15 +12,13 @@
 				"-Wall",
 				"-std=c++17",
 				"-static",
-				"-I",
-				"D:/QT/Tools/mingw1120_64/bin/libstdc++-6.dll",
 				"${file}",
 				"-o",
 				"${fileDirname}\\release\\${fileBasenameNoExtension}.exe"
 			],
 			"options": {
 				"cwd": "${fileDirname}",
-				"env": {"CPLUS_INCLUDE_PATH": "${workspaceFolder}/include"},
+				"env": {"CPLUS_INCLUDE_PATH": "${workspaceFolder}"},
 			},
 			"problemMatcher": [
 				"$gcc"

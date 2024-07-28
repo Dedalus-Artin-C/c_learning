@@ -1,0 +1,10 @@
+^D:\C++_LEARNING\BOOK_CMAKE\CMAKELISTS.TXT
+setlocal
+D:\QT\Tools\CMake_64\bin\cmake.exe -SD:/c++_learning/book_cmake -BD:/c++_learning/book_cmake/build --check-stamp-file D:/c++_learning/book_cmake/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

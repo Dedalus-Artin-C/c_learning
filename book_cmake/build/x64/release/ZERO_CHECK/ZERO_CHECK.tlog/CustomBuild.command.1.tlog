@@ -1,0 +1,10 @@
+^D:\C++_LEARNING\BOOK_CMAKE\BUILD\CMAKEFILES\E19CC23FFBDE94E05A8E537FA8EE4192\GENERATE.STAMP.RULE
+setlocal
+D:\QT\Tools\CMake_64\bin\cmake.exe -SD:/c++_learning/book_cmake -BD:/c++_learning/book_cmake/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/c++_learning/book_cmake/build/first_cmake.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,4 @@
+D:/c++_learning/book_cmake/build/CMakeFiles/newlib.dir
+D:/c++_learning/book_cmake/build/CMakeFiles/first_cmake.dir
+D:/c++_learning/book_cmake/build/CMakeFiles/ALL_BUILD.dir
+D:/c++_learning/book_cmake/build/CMakeFiles/ZERO_CHECK.dir
