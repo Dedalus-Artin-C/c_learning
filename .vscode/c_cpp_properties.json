@@ -4,8 +4,8 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/include/indicators/**",
-                "${workspaceFolder}/book_cmake/include"
+                "${workspaceFolder}/book_cmake/include",
+                "${workspaceFolder}/textbook/include"
 
             ],
             "defines": [

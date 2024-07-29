@@ -13,8 +13,11 @@
 				"-std=c++17",
 				"-static",
 				"${file}",
+				"${fileDirname}\\include\\*.cpp",
+				"-I",
+				"${fileDirname}\\include",
 				"-o",
-				"${fileDirname}\\release\\${fileBasenameNoExtension}.exe"
+				"${fileDirname}\\..\\bin\\${fileBasenameNoExtension}.exe"
 			],
 			"options": {
 				"cwd": "${fileDirname}",
