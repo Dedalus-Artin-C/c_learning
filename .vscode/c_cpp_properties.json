@@ -5,8 +5,8 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/book_cmake/include",
-                "${workspaceFolder}/textbook/include"
-
+                "${workspaceFolder}/textbook/include",
+                "${workspaceFolder}/**/*.hpp"
             ],
             "defines": [
                 "_DEBUG",
