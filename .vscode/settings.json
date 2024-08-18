@@ -44,5 +44,8 @@
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "typeinfo": "cpp"
-    }
+    },
+    "Codegeex.CompletionDelay": 2,
+    "cmake.sourceDirectory": "D:/c++project/c_learning/book_cmake",
+    "editor.fontSize": 15
 }
