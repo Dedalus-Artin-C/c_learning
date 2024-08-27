@@ -16,7 +16,7 @@ int main()
         {
             char ch = cin.get();
             if (ch == '\n' || ch == ' ' || ch == EOF)
-            {
+            { 
                 while (!s.empty()){cout << s.top(); s.pop();}
                 if (ch == '\n' || ch == EOF) break;
                 cout << " ";
