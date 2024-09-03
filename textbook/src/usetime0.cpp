@@ -11,6 +11,7 @@ int main()
     Time coding(2, 40);
     Time fixing(5, 55);
     Time total;
+    Time total1;
 
     cout << "planning time = ";
     planning.Show();
@@ -28,6 +29,11 @@ int main()
     cout << "coding.Sum() = ";
     total.Show();
     cout  << endl;
+
+    total1 = coding + fixing;
+    cout << "coding + fixing = ";
+    total1.Show();
+    cout << endl;
 
     return 0;
 }
