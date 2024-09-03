@@ -4,6 +4,7 @@
 #include <iostream>
 #include <mytime0.hpp>
 
+
 using namespace std;
 int main()
 {
@@ -34,6 +35,11 @@ int main()
     cout << "coding + fixing = ";
     total1.Show();
     cout << endl;
+
+    Time total2 = coding + fixing;
+    cout << "coding + fixing = ";
+    cout << total2;
+
 
     return 0;
 }

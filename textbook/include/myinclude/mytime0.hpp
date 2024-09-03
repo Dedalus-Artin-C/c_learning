@@ -2,6 +2,7 @@
 
 #ifndef MYTIME0_HPP_
 #define MYTIME0_HPP_
+#include <iostream>
 
 class Time {
     private :
@@ -16,7 +17,8 @@ class Time {
         Time Sum(const Time & t) const;
         void Show() const;
         Time operator+(const Time & t) const;
-
+        //Time operator<<(const Time &t) const;
+        friend void operator<<(std::ostream & os, const Time & t);
 };
 
 #endif
