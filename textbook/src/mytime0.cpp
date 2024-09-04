@@ -61,7 +61,8 @@ Time Time::operator+(const Time &t) const
 //     cout << hours << " hours, " << minutes << " minutes";
 // }
 
-void operator<<(ostream &os, const Time &t)
+ostream & operator<<(ostream &os, const Time &t)
 {
     os << t.hours << " hours, " << t.minutes << " minutes";
+    return os;
 }

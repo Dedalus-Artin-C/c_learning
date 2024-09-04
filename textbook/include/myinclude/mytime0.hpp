@@ -18,7 +18,7 @@ class Time {
         void Show() const;
         Time operator+(const Time & t) const;
         //Time operator<<(const Time &t) const;
-        friend void operator<<(std::ostream & os, const Time & t);
+        friend std::ostream& operator<<(std::ostream & os, const Time & t);
 };
 
 #endif
