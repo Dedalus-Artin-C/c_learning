@@ -16,6 +16,11 @@
 				//"${fileDirname}\\include\\*.cpp",
 				"-I",
 				"${fileDirname}\\include",
+				"-L",
+				"E:\\mingw64\\lib",
+				"-L",  // 在库文件的搜索路径列表中添加dir目录，
+                "C:\\msys64\\mingw64\\lib",
+                "-leasyx",
 				"-o",
 				"${fileDirname}\\..\\bin\\${fileBasenameNoExtension}.exe"
 			],
