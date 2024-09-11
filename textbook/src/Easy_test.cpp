@@ -24,7 +24,7 @@ void InitStar(int i)
     star[i].x = rand() % 1920;
     star[i].y = rand() % 1080;
     star[i].step = (rand() % 20000) / 1000.0 + 1;
-    star[i].color = (int)(star[i].step * 255 / 6.0 + 0.5); // 速度越快，颜色越亮
+    star[i].color = (int)(star[i].step * 255 / 6.0 + 5); // 速度越快，颜色越亮
     star[i].color = RGB(star[i].color, star[i].color, star[i].color);
 }
 
